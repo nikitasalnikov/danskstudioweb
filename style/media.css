@@ -157,15 +157,22 @@
   }
 
 }
-
+@media (max-width: 1145px) {
+  .services__tabs{
+    justify-content: center;
+  }
+  .header__menu-link a{
+    font-size: 18px;
+  }
+}
 @media (max-width: 1070px) {
   .header__contact:last-of-type {
     margin-left: 0;
     font-size: 18px;
   }
 
-  .header__menu-link {
-    font-size: 18px;
+  .header__menu-link a{
+    font-size: 16px;
   }
 
   .header__contact img {
@@ -220,7 +227,12 @@
 }
 
 @media (max-width: 965px) {
-
+  .header__contacts img{
+    width: 35px;
+  }
+  .header__contacts {
+    max-width: 110px;
+  }
   .header__menu-link,
   .header__contact:last-of-type {
     font-size: 16px;
@@ -261,13 +273,11 @@
     flex-direction: column;
   }
 
-  .main__about-btn:nth-of-type(2) {
-    margin-top: 25px;
-  }
+
 
 }
 
-@media (max-width: 900px) {
+@media (max-width: 905px) {
   .header__list-bg {
     position: absolute;
     background: #333333;
@@ -452,7 +462,11 @@
     font-size: 18px;
   }
 }
-
+@media (max-width:700px) {
+  .main__about-btn:nth-of-type(2) {
+    margin-top: 25px;
+  }
+}
 @media (max-width:630px) {
 
   .main__services-cards::before,
@@ -473,6 +487,7 @@
   .main__about-btn:nth-of-type(2) {
     padding: 15px;
     font-size: 16px;
+    margin-top: 0;
   }
 
   .main__payment-text p {
@@ -489,6 +504,9 @@
 
   .header__menu-link {
     line-height: 35px;
+  }
+  .__select__input:checked+label {
+    padding: 30px 10px;
   }
 }
 
@@ -560,6 +578,19 @@
   .main__contacts-content a {
     font-size: 16px;
   }
+  .__select[data-state=active] .__select__label::before{
+    font-size: 12px;
+  }
+  .__select__label{
+    height: 60px;
+  }
+
+  .main__about-btn:nth-of-type(2) {
+    margin-top: 25px;
+  }
+  .__select__input:checked+label::after{
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -619,7 +650,15 @@
   .main__contacts-left p a {
     font-size: 12px;
   }
-
+  .__select__content{
+    top: 55px;
+  }
+  .__select__title{
+    height: 75px;
+  }
+  .__select[data-state=active] .__select__label{
+    max-height:75px;
+  }
 }
 
 @media (max-width: 380px) {
@@ -657,5 +696,16 @@
   .entry-content p,
   .entry-content a {
     font-size: 14px;
+  }
+  .modal__window-open .form{
+    overflow-x: hidden;
+  }
+}
+@media (max-width:340px) {
+    .__select__input:checked+label::after {
+      font-size: 11px;
+  }
+  .__select[data-state=active] .__select__label::before {
+    font-size: 10px;
   }
 }

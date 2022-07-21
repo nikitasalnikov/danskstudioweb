@@ -78,13 +78,15 @@ for (let i = 0; i < selectSingle_labels.length; i++) {
 
 // Toggle menu
 
-selectSingle_title.addEventListener('click', function () {
-    if ('active' === selectSingle.getAttribute('data-state')) {
-        selectSingle.setAttribute('data-state', '');
-    } else {
-        selectSingle.setAttribute('data-state', 'active');
-    }
-});
+if (selectSingle_title) {
+    selectSingle_title.addEventListener('click', function () {
+        if ('active' === selectSingle.getAttribute('data-state')) {
+            selectSingle.setAttribute('data-state', '');
+        } else {
+            selectSingle.setAttribute('data-state', 'active');
+        }
+    });
+}
 
 // Close when click to option
 for (let i = 0; i < selectSingle_labels.length; i++) {
@@ -92,4 +94,22 @@ for (let i = 0; i < selectSingle_labels.length; i++) {
         selectSingle_title.textContent = evt.target.textContent;
         selectSingle.setAttribute('data-state', '');
     });
+}
+
+/*contact modal */
+
+const contactModal = document.querySelector('.contact__form');
+const contactBtn = document.querySelectorAll('.contact-btn');
+
+if (contactBtn) {
+
+    for (let i = 0; i < contactBtn.length; i++) {
+        contactBtn[i].addEventListener('click', function (e) {
+            e.preventDefault();
+            contactModal.classList.add('active');
+        })
+    }
+
+    contactModal.addEventListener('click', () => contactModal.classList.remove('active'))
+
 }
