@@ -1244,6 +1244,16 @@ input[type="file"] {
     position: relative;
     overflow-y: auto;
 }
+.modal__window-open .form::-webkit-scrollbar{
+    width: 10px;
+    background: #F4E8DA;
+    border-radius: 10px;
+}
+.modal__window-open .form::-webkit-scrollbar-thumb{
+    width: 10px;
+    background: #ECBF2E;
+    border-radius: 10px;
+}
 
 .close_btn {
     position: absolute;
