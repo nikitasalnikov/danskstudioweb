@@ -1021,7 +1021,17 @@ input[type="file"] {
     position: relative;
     overflow: hidden;
 }
-
+.main__editional-service{
+    padding-top: 60px;
+}
+.main__tab span{
+    font-size: 20px;
+    line-height: 107%;
+    font-family: 'Raleway-SemiBold';
+    color: #333333;
+    margin-bottom: 15px;
+    display: flex;
+}
 .main__services-infoTabs {
     display: flex;
     flex-direction: column;
