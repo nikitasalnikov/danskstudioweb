@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'HachiMaruPop';
+    src: url(../fonts/HachiMaruPop-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'HelweticaNeueCyr-Light';
+    src: url(../fonts/HelveticaNeueCyr-Light.ttf);
+}
+
+@font-face {
+    font-family: 'HelweticaNeueCyr-Medium';
+    src: url(../fonts/HelveticaNeueCyr-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Black';
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Bold';
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-ExtraBold';
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-SemiBold';
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
