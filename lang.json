@@ -1,0 +1,75 @@
+{
+    "title": {
+        "ru": "Онлайн-школа иностранных языков «Говори Сейчас»",
+        "da":" Onlineskole for fremmedsprog \"Tal nu\""
+    },
+    "main": {
+        "ru": "Главная",
+        "da": "Hjem"
+    },
+    "about": {
+        "ru": "Обо мне",
+        "da": "Om mig"
+    },
+    "services": {
+        "ru": "Услуги",
+        "da": "Tjenester"
+    },
+    "payment": {
+        "ru": "Участие и оплата",
+        "da": "Deltagelse og betaling"
+    },
+    "additional__services": {
+        "ru": "Дополнительные услуги",
+        "da": "Yderligere tjenester"
+    },
+    "contacts": {
+        "ru": "Контакты",
+        "da": "Kontaktpersoner"
+    },
+    "reviews": {
+        "ru": "Отзывы",
+        "da": "Anmeldelser"
+    },
+    "header_title": {
+        "ru": "ХОТИТЕ ИЗУЧИТЬ ДАТСКИЙ ЯЗЫК?",
+        "da": "VIL DU LÆRE DANSK?"
+    },
+    "header_subtitle": {
+        "ru": "ЗАПИСЫВАЙТЕСЬ В НАШУ СТУДИЮ!",
+        "da":   "TILMELD DIG VORES STUDIO!"
+    },
+    "desc_first": {
+        "ru": "Датский язык с Dansk Studio",
+        "da": "Dansk med Dansk Studio"
+    },
+    "desc_second": {
+        "ru": "Для любого уровня от новичка до продвинутого",
+        "da": "For alle niveauer fra begynder til øvet"
+    },
+    "contact_btn": {
+        "ru": "Получить консультацию!",
+        "da": "For at få konsultationen!"
+    },
+    "name": {
+        "ru": "Имя",
+        "da": "Navn"
+    },
+    "email": {
+        "ru": "E-mail",
+        "da": "E-mail"
+    },
+    "phone_number": {
+        "ru": "Телефон",
+        "da": "Telefon"
+    },
+    "form_btn": {
+        "ru": "Отправить",
+        "da": "Sende"
+    },
+    "main_title": {
+        "ru":" ОБО МНЕ",
+        "da": "OM MIG"
+    }
+
+}

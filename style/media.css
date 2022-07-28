@@ -1,5 +1,4 @@
 @media (max-width: 1780px) {
-
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
     left: 65px;
@@ -26,7 +25,6 @@
 }
 
 @media (max-width: 1455px) {
-
   .swiper-button-prev,
   .swiper-rtl .swiper-button-next {
     left: 20px;
@@ -99,7 +97,7 @@
     padding: 0 15px;
   }
 
-  .main__contacts-content{
+  .main__contacts-content {
     padding: 0 15px;
   }
 }
@@ -125,8 +123,7 @@
 
 @media (max-width: 1290px) {
   .main__title::before {
-    width: 40%;
-    margin-left: 15px;
+    width: 38%;
   }
 
   .main__author-left::before {
@@ -155,23 +152,27 @@
   .main__step-card p {
     text-align: center;
   }
-
 }
-@media (max-width: 1145px) {
-  .services__tabs{
-    justify-content: center;
-  }
-  .header__menu-link a{
+@media (max-width: 1185px) {
+  .header__menu-link a {
     font-size: 18px;
   }
 }
-@media (max-width: 1070px) {
+@media (max-width: 1145px) {
+  .services__tabs {
+    justify-content: center;
+  }
+  .header__menu-link a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1080px) {
   .header__contact:last-of-type {
     margin-left: 0;
     font-size: 18px;
   }
 
-  .header__menu-link a{
+  .header__menu-link a {
     font-size: 16px;
   }
 
@@ -225,9 +226,13 @@
     align-items: center;
   }
 }
-
+@media (max-width: 1000px) {
+  .header__menu-link a {
+    font-size: 14px;
+  }
+}
 @media (max-width: 965px) {
-  .header__contacts img{
+  .header__contacts img {
     width: 35px;
   }
   .header__contacts {
@@ -272,9 +277,6 @@
   .main__about-text {
     flex-direction: column;
   }
-
-
-
 }
 
 @media (max-width: 905px) {
@@ -390,7 +392,7 @@
   }
 }
 
-@media (max-width:825px) {
+@media (max-width: 825px) {
   .main__services-title::after {
     width: 40%;
   }
@@ -428,7 +430,6 @@
 }
 
 @media (max-width: 768px) {
-
   .main__title,
   .main__services-title,
   .main__step-title {
@@ -462,13 +463,12 @@
     font-size: 18px;
   }
 }
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .main__about-btn:nth-of-type(2) {
     margin-top: 25px;
   }
 }
-@media (max-width:630px) {
-
+@media (max-width: 630px) {
   .main__services-cards::before,
   .main__services-cards::after {
     content: none;
@@ -495,7 +495,7 @@
   }
 }
 
-@media (max-width:615px) {
+@media (max-width: 615px) {
   .swiper-slide {
     justify-content: center;
     align-items: center;
@@ -505,12 +505,12 @@
   .header__menu-link {
     line-height: 35px;
   }
-  .__select__input:checked+label {
+  .__select__input:checked + label {
     padding: 30px 10px;
   }
 }
 
-@media (max-width:525px) {
+@media (max-width: 525px) {
   .main__about-title {
     font-size: 18px;
   }
@@ -539,7 +539,6 @@
 }
 
 @media (max-width: 495px) {
-
   .header__content-title,
   .header__content-subtitle {
     font-size: 20px;
@@ -578,23 +577,22 @@
   .main__contacts-content a {
     font-size: 16px;
   }
-  .__select[data-state=active] .__select__label::before{
+  .__select[data-state="active"] .__select__label::before {
     font-size: 12px;
   }
-  .__select__label{
+  .__select__label {
     height: 60px;
   }
 
   .main__about-btn:nth-of-type(2) {
     margin-top: 25px;
   }
-  .__select__input:checked+label::after{
+  .__select__input:checked + label::after {
     font-size: 12px;
   }
 }
 
 @media (max-width: 425px) {
-
   .main__title,
   .main__services-title,
   .main__step-title {
@@ -621,7 +619,6 @@
 }
 
 @media (max-width: 400px) {
-
   .header__content-title,
   .header__content-subtitle {
     font-size: 16px;
@@ -650,14 +647,14 @@
   .main__contacts-left p a {
     font-size: 12px;
   }
-  .__select__content{
+  .__select__content {
     top: 55px;
   }
-  .__select__title{
+  .__select__title {
     height: 75px;
   }
-  .__select[data-state=active] .__select__label{
-    max-height:75px;
+  .__select[data-state="active"] .__select__label {
+    max-height: 75px;
   }
 }
 
@@ -697,15 +694,15 @@
   .entry-content a {
     font-size: 14px;
   }
-  .modal__window-open .form{
+  .modal__window-open .form {
     overflow-x: hidden;
   }
 }
-@media (max-width:340px) {
-    .__select__input:checked+label::after {
-      font-size: 11px;
+@media (max-width: 340px) {
+  .__select__input:checked + label::after {
+    font-size: 11px;
   }
-  .__select[data-state=active] .__select__label::before {
+  .__select[data-state="active"] .__select__label::before {
     font-size: 10px;
   }
 }
